@@ -1,0 +1,13 @@
+h1{
+  font-style: italic;
+}
+img{
+  border-style: groove;
+}
+.divider{
+  border: 1px;
+  color: rgb(109, 111, 114);
+}
+.assignments{
+  list-style-position: left;
+}

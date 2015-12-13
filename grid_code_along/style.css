@@ -1,0 +1,9 @@
+.container{
+  ;
+}
+.col-6{
+  border: black solid 1px;
+  width: 50%;
+  height: 100px;
+  float: left;
+}

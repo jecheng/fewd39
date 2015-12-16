@@ -1,13 +1,30 @@
 h1{
-  font-style: italic;
+  font-family: fantasy;
 }
 img{
   border-style: groove;
 }
 .divider{
-  border: 1px;
+  border: 1px #solid;
+  margin: auto;
   color: rgb(109, 111, 114);
 }
 .assignments{
-  list-style-position: left;
+  float: right;
+  border: 3px solid #73AD21;
+  padding: 10px 25px 10px 25px
+}
+body{
+  background-color: rgb(109, 111, 114);
+  color: #ffffff;
+  font-family: fantasy;
+}
+a{
+  color: #A1FC03;
+}
+.container{
+  border: 3px solid #73AD21;
+  padding: 40px;
+  margin: 20px auto;
+  column-count: 5;
 }

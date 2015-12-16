@@ -1,9 +1,21 @@
 .container{
-  ;
+  margin: 100px;
 }
 .col-6{
   border: black solid 1px;
   width: 50%;
   height: 100px;
   float: left;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #234987;
+}
+.col-4{
+  border: solid red 2px;
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  background-color: yellow;
+
 }

@@ -1,5 +1,7 @@
 h1{
-  font-family: fantasy;
+
+    font-family: 'Lobster', cursive;
+
 }
 img{
   border-style: groove;
@@ -17,7 +19,14 @@ img{
 body{
   background-color: rgb(109, 111, 114);
   color: #ffffff;
-  font-family: fantasy;
+  margin: 100px;
+
+}
+h2 {
+    font-family: 'Lobster', cursive;
+}
+ul{
+  font-family: 'Dancing Script', cursive;
 }
 a{
   color: #A1FC03;

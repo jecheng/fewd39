@@ -52,6 +52,7 @@ section{
 }
 section p{
   font-family: 'Open Sans', sans-serif;
+  color: rgb(147, 147, 147);
 }
 .date{
   font-family: 'Open Sans', sans-serif;
@@ -71,9 +72,13 @@ section p{
 .continues{
   float: right;
   color: rgb(196, 72, 76);
+  font-weight: 700;
 }
 strong{
-
+font-weight: 700;
+font-size: 50px;
+float: left;
+padding-top: 0px;
 }
 aside{
   width: 33.36%;
@@ -83,10 +88,13 @@ aside{
 .about{
 padding-top: 40px;
   color: rgb(150, 150, 150);
-  font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .about_p{
 font-family: 'Open Sans', sans-serif;
+color: rgb(147, 147, 147);
 }
 .archive{
   color: rgb(196, 72, 76);
@@ -96,12 +104,18 @@ font-family: 'Open Sans', sans-serif;
   color: rgb(196, 72, 76);
   float: right;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 .ad{
-  background: grey;
+  background-color: rgb(204, 204, 204);;
   width: auto;
   height: 200px;
   text-align: center;
+  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400px;
+  color: rgb(149, 149, 149);
+  padding-top: 150px;
 
 }
 footer{
@@ -110,4 +124,5 @@ footer{
 }
 .footer{
       color: rgb(196, 72, 76);
+      font-family: 'Open Sans', sans-serif;
 }

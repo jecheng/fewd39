@@ -1,27 +1,42 @@
-h1{
+.container{
+  margin-top: 40px;
+}
+.text-center{
 
-    font-family: 'Lobster', cursive;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 200px;
 
 }
-img{
+/*img{
   border-style: groove;
-}
+}*/
+
 .divider{
   border: 1px #solid;
   margin: auto;
   color: rgb(109, 111, 114);
+}
+body{
+  background: url(tokyobackground.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+
 }
 .assignments{
   float: right;
   border: 3px solid #73AD21;
   padding: 10px 25px 10px 25px
 }
-body{
+/*body{
   background-color: rgb(109, 111, 114);
   color: #ffffff;
   margin: 100px;
 
-}
+}*/
 h2 {
     font-family: 'Lobster', cursive;
 }
@@ -31,9 +46,9 @@ ul{
 a{
   color: #A1FC03;
 }
-.container{
+/*.container{
   border: 3px solid #73AD21;
   padding: 40px;
   margin: 20px auto;
   column-count: 5;
-}
+}*/

@@ -3,24 +3,50 @@
 }
 .text-center{
 
-    font-family: 'Signika', sans-serif;
+  font-family: 'Meddon', cursive;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 60px;
     color: #ffffff;
-    margin-top: 200px;
+    text-shadow: 5px 2px 2px #000000;
 
 }
 /*img{
   border-style: groove;
 }*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    font-size: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.hero-icon {
+	font-size:100px;
+  color: #ffffff;
+}
+.hero-icon i:hover {
+	color:#23FF0F;
+	cursor:pointer;
+
+}
 .divider{
   border: 1px #solid;
   margin: auto;
   color: rgb(109, 111, 114);
 }
 body{
-  background: url(tokyobackground.jpg) no-repeat;
+  background: url(NYC.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   background-attachment: fixed;

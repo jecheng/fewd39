@@ -5,9 +5,8 @@
 .page-header{
   margin: 40px 0 40px 0;
 }
-aside{
-  float: right;
-  width: 20.00%;
+.col-sm-3{
+
   margin-top: 90px;
 }
 footer{

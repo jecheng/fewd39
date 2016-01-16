@@ -11,12 +11,127 @@
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About Me</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Click me</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
 
       <div class="container">
-        
+
+        <div class="row">
+          <div class="col-md-9"><div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>This is homework #3 using bootstrap!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+          <aside>
+            <div class="list-group">
+              <a href="#" class="list-group-item active">
+                Cras justo odio
+              </a>
+              <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+              <a href="#" class="list-group-item">Morbi leo risus</a>
+              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item">Vestibulum at eros</a>
+              <a href="#" class="list-group-item">
+                Cras justo odio
+              </a>
+              <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+              <a href="#" class="list-group-item">Morbi leo risus</a>
+              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item">Vestibulum at eros</a>
+              </div>
+          </aside>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p><div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">View Details >></button>
+          </div>
+          </div>
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p><div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">View Details >></button>
+          </div>
+          </div>
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default">View Details >></button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p><div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">View Details >></button>
+          </div>
+          </div>
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p><div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">View Details >></button>
+          </div>
+          </div>
+          <div class="col-md-3"><h3>Heading</h3><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p><div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">View Details >></button>
+          </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="page-header"></div>
+        <footer>© 2015 Company, Inc.</footer>
       </div>
-    </nav>
+
     <script src="https://code.jquery.com/jquery-2.2.0.min.js">
     </script>
     <!-- Latest compiled and minified JavaScript -->

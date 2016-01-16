@@ -1,3 +1,18 @@
-.nav{
-  color: black;
+
+.jumbotron{
+  margin-top: 90px;
+}
+.page-header{
+  margin: 40px 0 40px 0;
+}
+aside{
+  float: right;
+  width: 20.00%;
+  margin-top: 90px;
+}
+footer{
+  margin-bottom: 50px;
+}
+.col-md-3{
+  margin-top: 0px;
 }

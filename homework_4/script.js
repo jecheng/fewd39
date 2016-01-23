@@ -29,6 +29,12 @@ function max(num1, num2){
 max(123,234);
 
 
-var maxOfThree = ["5", "7", "8"];
-console.log(Math.max.apply(Math,maxOfThree));
-// Math.max looks for the largest integer while "apply" passes the array to the function "maxOfThree". The parameter for "apply" is "this" inside that function. Since "max" doesn't depend on the current context so anything can be used in place of the 1st parameter.
+function maxOfThree(num1, num2, num3){
+  return Math.max(num1, num2, num3);
+}
+maxOfThree(2,3,4);
+
+// ANOTHER WAY OF USING MATH.MAX
+// var maxOfThree = ["5", "7", "8"];
+// console.log(Math.max.apply(Math,maxOfThree));
+// // Math.max looks for the largest integer while "apply" passes the array to the function "maxOfThree". The parameter for "apply" is "this" inside that function. Since "max" doesn't depend on the current context so anything can be used in place of the 1st parameter.

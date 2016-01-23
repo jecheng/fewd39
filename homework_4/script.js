@@ -8,7 +8,7 @@ for(var i=0;i<21;i+=2){
 
 var i = 0;
 while (i<=20) {
-  if(i%2==0){
+  if(i%2===0){
 console.log(i+" is even");
 }
 i++<=20;
@@ -26,7 +26,7 @@ function max(num1, num2){
     return num2;
   }
 }
-max(123,234,654);
+max(123,234);
 
 
 var maxOfThree = ["5", "7", "8"];

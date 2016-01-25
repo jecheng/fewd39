@@ -50,7 +50,13 @@ body { font-family: sans-serif; }
 
   <script>
  //create a function called addImage here
-
+function addImage(){
+  var userImage = prompt("Add image source, width, height here!");
+  var image = document.createElement("img");
+  image.textContent = userImage;
+  var imageParent = document.querySelector("#image");
+  parent.appendChild(image);
+}
   </script>
 </div>
 

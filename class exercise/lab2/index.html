@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+  </head>
+<style>
+  .green{
+    color: green;
+  }
+  #fontsize100{
+    font-size: 100px
+  }
+</style>
+
+  <body>
+    <h1>Hi!</h1>
+      <ul>
+        <li class = "green">list item 1</li>
+      </ul>
+  </body>
+  <script>
+    // created a new element ("li"), child to the ul
+    var listItem = document.createElement("li");
+    listItem.textContent = "my first list item";
+    listItem.className = "green";
+    listItem.setAttribute("id","fontsize100");
+
+    // created a new element (img) and setting attributes
+    var image = document.createElement("img");
+    image.setAttribute("src","http://geek.scot/wp-content/uploads/2015/06/emoji.png")
+
+
+    // grabbed or selected the parent "unorderedlist"
+    var unorderedlist = document.querySelector("ul");
+    unorderedlist.appendChild(listItem);
+    unorderedlist.appendChild(image);
+
+  </script>
+</html>

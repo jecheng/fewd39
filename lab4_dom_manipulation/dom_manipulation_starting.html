@@ -51,11 +51,15 @@ body { font-family: sans-serif; }
   <script>
  //create a function called addImage here
 function addImage(){
-  var userImage = prompt("Add image source, width, height here!");
+  var userImage = prompt("Add image source!");
+  var userImageWidth = prompt("Add image width!");
+  var userImageHeight = prompt("Add image Height!");
   var image = document.createElement("img");
-  image.textContent = userImage;
+  image.setAttribute("src",userImage);
+  image.setAttribute("class",userImageWidth);
+  image.setAttribute("class",userImageHeight);
   var imageParent = document.querySelector("#image");
-  parent.appendChild(image);
+  imageParent.appendChild(image);
 }
   </script>
 </div>
@@ -75,6 +79,14 @@ function addImage(){
 
   <script>
   //create a function called makeBold here
+    var boldparagraph = document.querySelector("#make-me-bold");
+    // var boldtoggle = document.querySelector(.makeBold);
+    function makeBold(){
+    boldparagraph.className = "bold";
+    // boldtoggle.className = "bold";
+  }
+    boldparagraph.addEventListener('click',makeBold);
+    // boldtoggle.addEventListener('click',makeToggleBold);
 
   </script>
 </div>

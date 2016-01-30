@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="test">
+      Click to see pop-up the AddEventListener
+    </div>
+    <div class="test">
+      Click to see pop-up the AddEventListener
+    </div>
+    <div class="test">
+      Click to see pop-up the AddEventListener
+    </div>
+
+    <script>
+    var myElements = document.querySelectorAll(".test");
+
+    for (var i = 0; i < myElements.length; i++) {
+      myElements[i].addEventListener("click",function(){
+        alert("Pop-up worked!");
+      });
+    }
+    </script>
+  </body>
+</html>

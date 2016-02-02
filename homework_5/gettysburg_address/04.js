@@ -1,3 +1,11 @@
 $(document).ready(function(){
  $("html").show();
 });
+$(document).ready(function(){
+  $(".speech").mouseenter(function(){
+    $("p").css("background","yellow");
+  });
+  $(".speech").mouseleave(function(){
+    $("p").css("background","white");
+  })
+});

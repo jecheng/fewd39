@@ -9,3 +9,16 @@ $(document).ready(function(){
     $("p").css("background","white");
   })
 });
+$("h2").click(function(){
+  $("h2").fadeTo("slow",0.25).css("margin-left","20px");
+  $(".speech").fadeTo("slow",0.50);
+})
+$("#switcher-default").click(function(){
+  $(".speech").css("font-size","1em");
+});
+$("#switcher-large").click(function(){
+  $(".speech").css("font-size","2em");
+});
+$("#switcher-small").click(function(){
+  $(".speech").css("font-size","0.5em");
+});

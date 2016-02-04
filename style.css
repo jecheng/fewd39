@@ -31,7 +31,7 @@
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
 }*/
-.video-container video {
+/*.video-container video {
    position: fixed;
    right: 0;
    bottom: 0;
@@ -40,7 +40,7 @@
    width: auto;
    height: auto;
    z-index: -100;
-}
+}*/
 /*.video-container video.fillWidth {
     width: 100%;
 }*/
@@ -101,8 +101,8 @@
   color: rgb(109, 111, 114);
 }
 body{
-  /*background: url(stock.jpg) no-repeat;*/
-  /*background-size: cover;*/
+  background: url(stock.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   background-attachment: fixed;
 

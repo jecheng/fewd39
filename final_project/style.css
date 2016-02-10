@@ -76,8 +76,3 @@ h1{
     border-width: 0 6px 6px 6px ;
     margin-top: -3px;
 }
-
-.wrapper-dropdown-1.active {
-  background: #fff;
-  /*background: linear-gradient(to right, #9bc7de 0%, #9bc7de 78%, #ffffff 78%, #ffffff 100%);*/
-}

@@ -1,24 +1,44 @@
-function createDropDown(){
-    var source = $("#source");
-    var selected = source.find("option[selected]");  // get selected <option>
-    var options = $("option", source);  // get all <option> elements
-    // create <dl> and <dt> with selected value inside it
-    $("body").append('<dl id="target" class="dropdown"></dl>')
-    $("#target").append('<dt><a href="#">' + selected.text() +
-        '<span class="value">' + selected.val() +
-        '</span></a></dt>')
-    $("#target").append('<dd><ul></ul></dd>')
-    // iterate through all the <option> elements and create UL
-    options.each(function(){
-        $("#target dd ul").append('<li><a href="#">' +
-            $(this).text() + '<span class="value">' +
-            $(this).val() + '</span></a></li>');
-    });
+function DropDown(el) {
+  this.dd = el;
+  this.placeholder = this.dd.children('span');
+  this.opts = this.dd.find('ul.dropdown > li');
+  this.val = '';
+  this.index = -1;
+  this.initEvents();
 }
-$(".dropdown dd ul li a").click(function() {
-    var text = $(this).html();
-    $(".dropdown dt a").html(text);
-    $(".dropdown dd ul").hide();
-    var source = $("#source");
-    source.val($(this).find("span.value").html())
+DropDown.prototype = {
+  initEvents : function() {
+    var obj = this;
+
+    obj.dd.on('click', function(event){
+      $(this).toggleClass('active');
+      return false;
+    });
+
+    obj.opts.on('click',function(){
+      var opt = $(this);
+      obj.val = opt.text();
+      obj.index = opt.index();
+      obj.placeholder.text('results: ' + obj.val);
+    });
+  },
+  getValue : function() {
+    return this.val;
+  },
+  getIndex : function() {
+    return this.index;
+  }
+}
+
+$(function() {
+
+  var dd = new DropDown( $('#dd1') );
+  var dd = new DropDown( $('#dd2') );
+  var dd = new DropDown( $('#dd3') );
+
+  $(document).click(function() {
+    // all dropdowns
+    $('.wrapper-dropdown-1').removeClass('active');
+  });
+
 });

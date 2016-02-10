@@ -14,8 +14,8 @@ h1{
     margin: 0 auto;
 
     /* Styles */
-    background: #9bc7de;
-    color: #fff;
+    background: #fffff;
+    color: purple;
     outline: none;
     border: 5px solid purple;
     cursor: pointer;
@@ -78,6 +78,6 @@ h1{
 }
 
 .wrapper-dropdown-1.active {
-  background: #9bc7de;
-  background: linear-gradient(to right, #9bc7de 0%, #9bc7de 78%, #ffffff 78%, #ffffff 100%);
+  background: #fff;
+  /*background: linear-gradient(to right, #9bc7de 0%, #9bc7de 78%, #ffffff 78%, #ffffff 100%);*/
 }

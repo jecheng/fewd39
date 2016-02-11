@@ -6,6 +6,9 @@ h1{
   margin-top: 300px;
   margin-bottom: 120px;
 }
+.btn{
+  margin-top: 50px;
+}
 .wrapper-dropdown-1 {
     /* Size and position */
     position: relative; /* Enable absolute positioning for children and pseudo elements */

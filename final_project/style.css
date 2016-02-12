@@ -10,7 +10,7 @@ h1{
 .btn-info.active, .btn-info:active {
     background-color: #A22AD2;
     border-color: #A22AD2;
-    margin: 50px auto;
+    margin: 100px auto;
     display: table;
 }
 .wrapper-dropdown-1 {

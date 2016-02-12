@@ -6,8 +6,12 @@ h1{
   margin-top: 300px;
   margin-bottom: 120px;
 }
-.btn{
-  margin-top: 50px;
+
+.btn-info.active, .btn-info:active {
+    background-color: #A22AD2;
+    border-color: #A22AD2;
+    margin: 50px auto;
+    display: table;
 }
 .wrapper-dropdown-1 {
     /* Size and position */

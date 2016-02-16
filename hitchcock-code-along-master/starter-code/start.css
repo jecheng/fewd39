@@ -1,0 +1,55 @@
+	/*********** GLOBAL STYLES ***********/
+
+	body,
+	html {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+#map-canvas{
+	height: 80%;
+}
+	/*********** LAYOUT ***********/
+
+	header {
+    height: 8%;
+    /*background: pink;*/
+		width: 100%
+	}
+	section {
+	    height: 80%;
+			/*background: yellow;*/
+	}
+
+	aside {
+	    height: 85%;
+			background: #F5F5F5;
+	}
+
+	footer {
+	    height: 7%;
+	    /*background: red;*/
+			width: 100%;
+	}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+}
+	/*********** OTHER STYLES ***********/
+
+.right{
+	padding: 20px;
+	height: 100%;
+	overflow: auto;
+}
+
+.footer-text{
+	text-align: center;
+}
+	/*********** MEDIA QUERIES ***********/

@@ -1,0 +1,68 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #2d4052;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	padding: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+/*********** LAYOUT ***********/
+
+header {
+	height: 8%;
+	width: 100%;
+	/*background: pink;*/
+}
+
+section {
+	height: 85%;
+}
+
+aside {
+	height: 85%;
+}
+
+footer {
+	width: 100%;
+	height: 7%;
+	/*background: red;*/
+}
+
+/*********** OTHER STYLES ***********/
+
+.right {
+    background: #F5F5F5;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+}
+
+.film-list {
+	/*width: 100%;*/
+	padding-left: 0;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+/*********** MEDIA QUERIES ***********/
+
+@media (max-width: 768px) { 
+	.right {
+		background: orange;
+		/*position: relative;*/
+	}
+}

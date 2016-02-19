@@ -1,0 +1,98 @@
+/*.slide-wrapper {
+    position: relative;
+}*/
+.container{
+  position: absolute;
+  z-index: 100;
+  color: #FFF;
+  position:absolute;
+  z-index:12;
+  top:25%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 80px;
+
+}
+
+#restaurant-search{
+    display: block;
+    margin-top: 0px;
+}
+
+#submitButton {
+    background-color: black;
+    opacity: .8;
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    margin: 0px auto;
+    display: table;
+    outline-style: double;
+    color: #F5F5F5;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: utopia-std-display;
+
+
+}
+input {
+    padding: 10px;
+    margin: 70px auto;
+    width: 400px;
+    display: table;
+
+    /* Styles */
+    /*background: #fffff;*/
+    opacity: .8;
+    color: black;
+    outline: none;
+    /*border: 5px solid black;*/
+    cursor: pointer;
+
+    /* Font settings */
+    font-weight: bold;
+}
+ul{
+  text-align: center;
+}
+
+
+
+a {
+  color: white;
+  text-decoration: underline overline;
+}
+
+li{
+	padding: 20px;
+  margin: 10px auto;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+@media (max-width: 400px) {
+  .container{
+    color: black;
+  }
+  h1{
+    margin-top: 170px;
+  }
+  a {
+    color: black;
+    text-decoration: underline overline;
+  }
+  li{
+    color: black;
+  }
+}

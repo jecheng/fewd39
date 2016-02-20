@@ -2,8 +2,7 @@
     position: relative;
 }*/
 .container{
-  position: absolute;
-  z-index: 100;
+
   color: #FFF;
   position:absolute;
   z-index:12;

@@ -10,7 +10,7 @@ function formSubmitted(event) {
   // create the variable for the input
   var query = document.querySelector("#query").value;
   // create the url that would contain the input
-  var url = "https://api.foursquare.com/v2/venues/search?ll=37.7927898,-122.4098684&client_id=M4UHM4Q3PORZCXYXOYTM3W15B13A5TTJU30SMX4HOOYJJ142&client_secret=IT1WPZYJOSTDAB44UKUKSUWMUH2DO5ZCNNMTU2J1RAE13SXY&v=20160217&limit=5&query=" + query;
+  var url = "https://api.foursquare.com/v2/venues/search?ll=37.7927898,-122.4098684&client_id=M4UHM4Q3PORZCXYXOYTM3W15B13A5TTJU30SMX4HOOYJJ142&client_secret=IT1WPZYJOSTDAB44UKUKSUWMUH2DO5ZCNNMTU2J1RAE13SXY&v=20160217&limit=3&query=" + query;
   // create the AJAX to call the url with the search that the user inputs in order to get the data and create the function
   $.get(url, restaurantResults);
 }

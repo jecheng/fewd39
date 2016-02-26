@@ -1,12 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+.grid:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .grid-item{
   float: left;
-  width: 80px;
-  height: 60px;
+  width: 160px;
+  height: 120px;
+  background: red;
+  border-radius: 5px;
+  border: 2px solid black;
   border: 2px solid hsla(0, 0%, 0%, 0.5);
 }
+
 .grid-item--width2{
-  width: 160px;
+  width: 320px;
+}
+.grid-item--width3{
+  width: 480px;
 }
 .grid-item--height2{
-  height: 140px;
+  height: 200px;
+}
+.grid-item--height3{
+  height: 260px;
 }

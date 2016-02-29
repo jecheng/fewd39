@@ -1,32 +1,55 @@
 *{
   box-sizing: border-box;
 }
+.grid{
+  perspective: 1300px;
+}
 
+body{
+  background-color: rgb(233, 233, 233);
+}
+h1{
+  margin: 50px 10px 50px 10px;
+  font-size: 6em;
+}
 .grid:after{
   content: '';
   display: block;
   clear: both;
+
+}
+p{
+  color: black;
+  font-family:Texta, sans-serif;
+  font-size: 1em;
+  text-align:center;
+  padding: 7.5px;
 }
 
 .grid-item{
+  /*top: 10px;*/
   float: left;
-  width: 160px;
-  height: 120px;
-  background: red;
+  width: 322px;
+  height: 260px;
+  margin-bottom: 20px;
+  background: white;
+  color: black;
   border-radius: 5px;
   border: 2px solid black;
   border: 2px solid hsla(0, 0%, 0%, 0.5);
+  transform-style: preserve-3d;
 }
 
-.grid-item--width2{
-  width: 320px;
+.grid-item--height2 {
+  height: 310px;
 }
-.grid-item--width3{
-  width: 480px;
+.grid-item--height3 {
+  height: 285px;
 }
-.grid-item--height2{
-  height: 200px;
+.grid-item.animate{
+  transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+  animation: fallPerspective .8s ease-in-out forwards;
 }
-.grid-item--height3{
-  height: 260px;
+@keyframes fallPerspective {
+  100% { transform: translateZ (0px) translateY(0px) rotateX(0deg); opacity: 1;}
 }

@@ -23,11 +23,10 @@ p{
   font-family:Texta, sans-serif;
   font-size: 1em;
   text-align:center;
-  padding: 7.5px;
+  padding: 9px;
 }
 
 .grid-item{
-  /*top: 10px;*/
   float: left;
   width: 322px;
   height: 260px;
@@ -40,12 +39,12 @@ p{
   transform-style: preserve-3d;
 }
 
-.grid-item--height2 {
-  height: 310px;
+/*.grid-item--height2 {
+  height: 300px;
 }
 .grid-item--height3 {
-  height: 285px;
-}
+  height: 280px;
+}*/
 .grid-item.animate{
   transform: translateZ(400px) translateY(300px) rotateX(-90deg);
   animation: fallPerspective .8s ease-in-out forwards;

@@ -1,7 +1,29 @@
-.cover{
-  background-color:   red;
-  /*: url(water-summer-island-vibes.jpg);*/
+.item{
+  width: auto;
+  height: 600px;
+  max-height: 600px;
 }
-.p{
-  color: red;
+.overlay{
+  z-index: 99;
+  color: #FFF;
+  font-size: 3em;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+
+}
+.col-xs-6{
+  text-align: center;
+}
+.projects{
+  text-align: center;
+  font-family: 'Grand Hotel', cursive;
+
+}
+.img-thumbnail{
+  color: grey;
+
 }

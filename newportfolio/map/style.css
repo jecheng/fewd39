@@ -7,3 +7,10 @@ html, body{
   height: 100%;
 
 }
+#floating-panel{
+  position: absolute;
+  z-index: 99;
+  top: 10px;
+  left: 10%;
+  background-color: #fff;
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Salesforce Developers | API</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+
+  </head>
+  <body>
+    <!-- Nav bar section -->
+    <nav class="navbar navbar-default">
+      <!-- <div class="container-fluid"> -->
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#"><img alt="Brand" src="cloud.jpg"</a> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="link1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APP CLOUD </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Force.com</a></li>
+                <li><a href="#">Heroku</a></li>
+                <li><a href="#">Lightning</a></li>
+                <li><a href="#">Trailhead</a></li>
+                <li><a href="#">AppExchange</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="link2" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RESOURCES </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Force.com</a></li>
+                <li><a href="#">Heroku</a></li>
+                <li><a href="#">Lightning</a></li>
+                <li><a href="#">Trailhead</a></li>
+                <li><a href="#">AppExchange</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="link3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COMMUNITY </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Force.com</a></li>
+                <li><a href="#">Heroku</a></li>
+                <li><a href="#">Lightning</a></li>
+                <li><a href="#">Trailhead</a></li>
+                <li><a href="#">AppExchange</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="link4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BLOG </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Force.com</a></li>
+                <li><a href="#">Heroku</a></li>
+                <li><a href="#">Lightning</a></li>
+                <li><a href="#">Trailhead</a></li>
+                <li><a href="#">AppExchange</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="link5" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRAILHEAD </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Force.com</a></li>
+                <li><a href="#">Heroku</a></li>
+                <li><a href="#">Lightning</a></li>
+                <li><a href="#">Trailhead</a></li>
+                <li><a href="#">AppExchange</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+
+          </form>
+          <button type="button" class="btn btn-primary navbar-btn">Login ></button>
+          <button type="button" class="btn btn-success navbar-btn">Sign Up ></button>
+        </div><!-- /.navbar-collapse -->
+      <!-- </div><!-- /.container-fluid -->
+    </nav>
+<!-- banner section -->
+<div id="carousel-example-generic" class="carousel slide vertical" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators vertical">
+    <div class="btn-group-vertical">
+      <button type="button" data-target="#carousel-example-generic" data-slide-to="1" class="btn btn-primary">Free Tutorials</button>
+      <button type="button" data-target="#carousel-example-generic" data-slide-to="2" class="btn btn-primary">What's new in Spring 16</button>
+      <button data-target="#carousel-example-generic" data-slide-to="3" class="btn btn-primary">We're hiring</button>
+      <button data-target="#carousel-example-generic" data-slide-to="4" class="btn btn-primary">Salesforce App Cloud</button>
+      <button data-target="#carousel-example-generic" data-slide-to="5" class="btn btn-primary">Get Started</button>
+    </div>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="pics/moutain.jpg" alt="...">
+      <div class="carousel-caption">
+          <h2>Learn & Earn Badges</h2>
+          <h4>Follow a guided learning path with fun, interative tutorials in Trailhead</h4>
+          <button type="button" class="btn btn-info">Learn more ></button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="pics/city2.jpg" alt="...">
+      <div class="carousel-caption">
+          <h2>Spring '16 is Here</h2>
+          <h4>Learn all about the exciting new features in the Spring '16 release'</h4>
+          <button type="button" class="btn btn-info">Learn more ></button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="pics/moon.jpg" alt="...">
+      <div class="carousel-caption">
+          <h2>We're Hiring</h2>
+          <h4>Join the Salesforce Developer Marketing team & launch your dreamjob - we're hiring marketers, developers & evangelists</h4>
+          <button type="button" class="btn btn-info">Learn more</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="pics/tree.jpg" alt="...">
+      <div class="carousel-caption">
+          <h2>Introducing App Cloud</h2>
+          <h4>The fastest way to deliver apps that are secure, reliable and scalable</h4>
+          <button type="button" class="btn btn-info">Learn more</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="pics/fly.jpg" alt="...">
+      <div class="carousel-caption">
+          <h2>Get Started Today</h2>
+          <h4>Create amazing apps. Connect to next-gen products and devices</h4>
+          <button type="button" class="btn btn-info">Learn more</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- center content section -->
+  <div class="container" id="content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <img src="pics/appcloud.jpg" alt="" />
+
+        <p>
+          Get the flexibility and control to build, scale and manage all of your apps on a single, unified platform. Integrating core platform services such as Heroku Enterprise and Force.com, App Cloud adds new shared identity, data and network services.
+          <a href="#">Learn more about App Cloud</a>
+        </p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <a href="#"><img class=icons src="pics/force.jpg" alt="" />
+                <p>
+                  <h5>Force.com</h5>
+                  <h6>Everything to build social and mobile enterprise apps.</h6>
+                </p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <a href="#"><img  class=icons src="pics/lightning.jpg" alt="" />
+                <p>
+                  <h5>Lightning</h5>
+                  <h6>Build beautiful apps fast with new dev tools & design resources</h6>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <a href="#"><img class=icons src="pics/heroku.jpg" alt="" />
+                <p>
+                  <h5>Heroku</h5>
+                  <h6>Build customer apps in any language that instantly sync with Salesforce</h6>
+                </p>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <a href="#"><img class=icons src="pics/appexchange.jpg" alt="" />
+                <p>
+                  <h5>AppExchange</h5>
+                  <h6>Distribute Force.com Apps and Lightning Components through the #1 enterprise app store</h6>
+                </p>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6" id="rightSide">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6"><h4>Community</h4>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <a href="#"><img class=icons src="pics/events.jpg" alt="" />
+                  <p>
+                    <h5><b>Upcoming Events</b>
+                    <br>Register for upcoming events and webinars.</h5>
+                  </p>
+                </a>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <a href="#"><img class=icons src="pics/questions.jpg" alt=""/>
+                    <p>
+                      <h5><b>Ask Questions</b>
+                      <br>Get help when you need it from Salesforce & community experts</h5>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <a href="#"><img class=icons src="pics/group.jpg" alt=""/>
+                    <p>
+                      <h5><b>Join Your Local Dev Group</b>
+                      <br>Meet other developers & get best practices for building on the App Cloud</h5>
+                    </p>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6"><h4>Resources & Tools</h4>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <a href="#"><img class=icons src="pics/signs.jpg" alt="" />
+                  <p>
+                    <h5><b>Get Free Tutorials</b>
+                    <br>Trailhead is the fun and free way to learn Salesforce</h5>
+                  </p>
+                </a>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <a href="#"><img class=icons src="pics/forcecloud.jpg" alt=""/>
+                    <p>
+                      <h5><b>Force.com IDE</b>
+                      <br>Develop & deploy Force.com apps with our free, Eclipse IDE</h5>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <a href="#"><img class=icons src="pics/blog.jpg" alt=""/>
+                    <p>
+                      <h5><b>Latest Blog Posts</b>
+                      <br>Get the latest news & articles.</h5>
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <a href="#"><img class=icons src="pics/s1.jpg" alt=""/>
+                    <p>
+                      <h5><b>Getting Started</b>
+                      <br>Get free tools & learn how to build your first app</h5>
+                    </p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer section -->
+  <footer>
+    <div class="container" id= "footer">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h6>Get started</h6>
+            <li><a href="#">Salesforce App Cloud</a></li>
+            <li><a href="#">Force.com</a></li>
+            <li><a href="#">Heroku</a></li>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2">
+          <h6>Salesforce Dev Centers</h6>
+            <li><a href="#">Heroku Dev Center</a></li>
+            <li><a href="#">Code @ ExactTarget</a></li>
+            <li><a href="#">Desk.com </developers></a></li>
+            <li><a href="#">Pardot Developer Site</a></li>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2">
+          <h6>Developer resources</h6>
+            <li><a href="#">Mobile Services</a></li>
+            <li><a href="#">Force.com Docs</a></li>
+            <li><a href="#">Fore.com Downloads</a></li>
+            <li><a href="#">Heroku Docs</a></li>
+            <li><a href="#">Heroku Downalods</a></li>
+            <li><a href="#">Learn Salesforce with Trailhead</a></li>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2">
+          <h6>Community</h6>
+            <li><a href="#">Developer Forums</a></li>
+            <li><a href="#">Salesforce Developer Events</a></li>
+            <li><a href="#">Webinars</a></li>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h6>Learn more</h6>
+            <li><a href="#">Salesforce AppExchange</a></li>
+            <li><a href="#">Salesforce Platform Overview</a></li>
+            <li><a href="#">Salesforce.com Help </a></li>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container" id="copyRight">
+      <div class="row">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+          <p>
+            © Copyright 2000-2016 salesforce.com, inc. All rights reserved. Various trademarks held by their respective owners.
+            <br>Salesforce.com, inc. The Landmark @ One Market, Suite 300, San Francisco, CA 94105, United States
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="socialMedia">
+            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa fa-google-plus-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a>
+            <a href="#"><i class="fa fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+      </div>
+        <div class="footerLinks">
+          <a href="#">Privacy Statement | </a>
+          <a href="#">Security Statement | </a>
+          <a href="#">Terms of Use | </a>
+          <a href="#">[+]Feedback | </a>
+          <a href="#">About Us | </a>
+          <a href="#">Language: English</a>
+        </div>
+        <br>
+    </div>
+
+  </footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="style.jss"></script>
+  </body>
+</html>
